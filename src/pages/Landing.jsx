@@ -22,7 +22,7 @@ function Landing() {
      <section className='books my-5 '>
     
      <div className='row container-fluid d-flex justify-content-evenly'>
-         <Card sx={{ maxWidth: 280 ,m: 2 }} className='col-3 mx-3'>
+         <Card sx={{ maxWidth: 280 ,m: 5 }} className='col-3 mx-3'>
         <CardMedia className='image-fluid'
           sx={{ height: 280 , maxWidth: 240 ,mx:"auto"}}
           image="https://5.imimg.com/data5/SELLER/Default/2024/9/451053603/BH/KA/SA/231929105/flipkart-images-7-png.png"
