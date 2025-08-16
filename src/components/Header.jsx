@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Home', 'About Us', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {
@@ -37,10 +37,10 @@ function Header() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{background:"linear-gradient(to right, rgb(0, 255, 200), rgb(2, 104, 117))"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+         <img src=" " alt="" style={{width:"50px",height:"50px", padding:"30px"}} />
           <Typography
             variant="h6"
             noWrap
@@ -52,11 +52,12 @@ function Header() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'white',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <img src="https://i.pinimg.com/736x/ff/a9/32/ffa932be25e0bfa85d6c54b82bff0a27.jpg" alt="" width={'40'} height={'40'}/>
+            BOOK LOOM
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
