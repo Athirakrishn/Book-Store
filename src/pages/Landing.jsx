@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { FaArrowRight } from "react-icons/fa";
+// import About from './About';
 
 
 function Landing() {
@@ -20,7 +21,9 @@ function Landing() {
            <div className='btn btn-outline-light border 'style={{fontSize:"30px",borderRadius:"50px"}}>Browse Books </div>
         </div>
 
-     </section> 
+     </section>
+     {/* <About/> */}
+
      <section className='books  text-center ' style={{  marginBottom:"0%",background: "linear-gradient(90deg, rgb(225, 201, 247), rgb(2, 104, 117))"}}>
   <div className='conatiner-fluid'>
         <h2 className='text-light p-4'>NEW RELEASES</h2>
@@ -35,7 +38,7 @@ function Landing() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" className="d-flex justify-content-center">
-        Pride and Prejudice – paperback
+        Pride and Prejudice 
         </Typography>
         <Typography variant="body2" sx={{ color: "text.secondary" }} className="d-flex justify-content-center">
           ₹450.00
@@ -132,7 +135,8 @@ function Landing() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" className="d-flex justify-content-center">
-     PREMANAGARAM
+     Prema -
+     Nagaram
   
         </Typography>
         <Typography variant="body2" sx={{ color: "text.secondary" }} className="d-flex justify-content-center">
@@ -151,7 +155,7 @@ function Landing() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" className="d-flex justify-content-center">
-        SUNDARAJEEVITHAM
+        Sudarajeevitham
         </Typography>
         <Typography variant="body2" sx={{ color: "text.secondary" }} className="d-flex justify-content-center">
           ₹190.00
